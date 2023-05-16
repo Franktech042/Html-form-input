@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web interaction</title>
+</head>
+<body>
+    <h1>form element in HTML</h1>
+    <p>kindly fill the form below</p><br>
+    <form action="index.html" method="post">
+        <label for="username">Username</label><br>
+        <input type="text" name="username" placeholder="your username" id="username" required><br><br>
+
+        <label for="emaii">Email</label><br>
+        <input type="email" name="emaii" placeholder="enter your email" id="emaii" required><br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" name="password" placeholder="enter your password" id="password" required><br><br>
+
+        <label for="number">Number</label><br>
+        <input type="number" name="number" placeholder="enter your number" id="number" required><br><br>
+
+        <label for="Address">Address</label><br>
+        <textarea name="address" id="address" cols="25" rows="10"></textarea><br><br>
+
+        <label for="date">Date of Birth</label><br>
+        <input type="date" name="date" id="date" required><br><br>
+
+        <label for="time">time of Birth</label><br>
+        <input type="time" name="time" id="time" required><br><br>
+
+        <label for="file">upload your file </label><br>
+        <input type="file" name="resume" accept=".mp4, .mp3" id="file" required><br><br>
+
+        <label for="colour">choose your colour </label><br>
+        <input type="color" name="colour" id="colour" required><br><br>
+
+        <label for="gender">Gender</label><br>
+        <select name="gender" id="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+
+        <input type="submit" value="Click Here">
+</form>
+</body>
+</html>
